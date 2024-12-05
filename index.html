@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>problem solving</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
-            background-color: #f9f9f9; /* Soft, clean background */
+            background: linear-gradient(135deg, #bc63c8, #efd349);
             color: #333;
         }
         
         h1 {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Lobster', cursive;
             font-size: 2.5rem;
-            color: #5b4caf; /* Highlight color */
+            color: #000000; 
             margin: 20px 0;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -26,22 +26,21 @@
           
         }
         
-        /* Shopping Cart Container */
         .container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
             padding: 20px;
             max-width: 1200px;
             margin: 0 auto;
         }
         
-        /* Product Card Styling */
+        
         .container > div {
             background-color: white;
             border-radius: 10px;
             padding: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             display: flex;
             flex-direction: column;
@@ -51,10 +50,10 @@
         
         .container > div:hover {
             transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
         }
         
-        /* Image Styling */
+        
         img {
             height: 150px;
             width: auto;
@@ -65,24 +64,23 @@
         }
         
         img:hover {
-            transform: scale(1.1); /* Interactive zoom effect */
+            transform: scale(1.1); 
         }
         
-        /* Text Styling */
+    
         .container p {
             margin: 10px 0;
             font-size: 1rem;
             color: #555;
         }
         
-        /* Price Highlight */
+      
         .container p:nth-child(4) {
             color: #ff5722;
             font-weight: bold;
             font-size: 1.2rem;
         }
-        
-        /* Buttons */
+      
         button {
             margin-top: 10px;
             padding: 10px 20px;
@@ -91,7 +89,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s, transform 0.3s;
-            width: 90%; /* Uniform button width */
+            width: 90%; 
         }
         
         button:nth-of-type(1) {
@@ -117,7 +115,7 @@
             transform: scale(1.05);
         }
         
-        /* Responsive Design */
+     
         @media (max-width: 768px) {
             h1 {
                 font-size: 2rem;
